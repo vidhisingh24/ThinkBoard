@@ -1,58 +1,92 @@
 # 🧠 ThinkBoard
 
-> A modern full-stack note-taking application built with the **MERN Stack** to create, organize, and manage notes effortlessly.
+A modern **MERN Stack** note-taking application designed to help users capture, organize, and manage their ideas with a clean, responsive interface.
 
-🌐 **Live Demo:** https://thinkboard-v29z.onrender.com/
+### 🌐 Live Demo
+
+https://thinkboard-v29z.onrender.com/
 
 ---
 
 ## ✨ Features
 
 * 📝 Create, edit, and delete notes
-* 💾 Persistent storage with MongoDB Atlas
-* ⚡ Fast and responsive UI
+* 💾 Persistent storage using MongoDB Atlas
+* ⚡ Fast and responsive user interface
 * 📱 Mobile-friendly design
-* 🔗 RESTful API with Express.js
+* 🔄 Real-time CRUD operations
+* 🔗 RESTful API powered by Express.js
 
 ---
 
-## 🛠️ Tech Stack
 
-**Frontend**
 
-* React
-* Vite
-* Tailwind CSS
+## 🛠 Tech Stack
 
-**Backend**
-
-* Node.js
-* Express.js
-
-**Database**
-
-* MongoDB Atlas
-* Mongoose
+| Layer    | Technology          |
+| -------- | ------------------- |
+| Frontend | React, Vite         |
+| Styling  | Tailwind CSS        |
+| Backend  | Node.js, Express.js |
+| Database | MongoDB Atlas       |
+| ODM      | Mongoose            |
 
 ---
 
-## 📂 Folder Structure
+## 📂 Project Structure
 
 ```text
 ThinkBoard/
 ├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
 ├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   └── server.js
+│   └── package.json
+│
 └── README.md
 ```
 
 ---
 
-## 🌱 Future Improvements
+## 📌 API Endpoints
 
-* Authentication
-* Search & Filters
-* Dark Mode
-* Pin & Favorite Notes
+| Method | Endpoint         | Description     |
+| ------ | ---------------- | --------------- |
+| GET    | `/api/notes`     | Fetch all notes |
+| POST   | `/api/notes`     | Create a note   |
+| PUT    | `/api/notes/:id` | Update a note   |
+| DELETE | `/api/notes/:id` | Delete a note   |
+
+---
+
+## 📸 Preview
+
+> Add screenshots or a GIF of the application here.
+
+```
+screenshots/
+├── Home.png
+└── Create-Note.png
+```
+
+---
+
+## 🎯 Future Improvements
+
+* 🔐 User Authentication
+* 🌙 Dark Mode
+* 🔍 Search Notes
+* 🏷️ Categories & Tags
+* 📌 Pin Important Notes
+* ⭐ Favorite Notes
 
 ---
 
@@ -60,4 +94,4 @@ ThinkBoard/
 
 **Vidhi Singh**
 
-If you like this project, consider giving it a ⭐ on GitHub.
+If you found this project useful, consider giving it a ⭐ on GitHub.
