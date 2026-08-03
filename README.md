@@ -1,33 +1,63 @@
-🧠 ThinkBoard
+# 🧠 ThinkBoard
 
-A modern full-stack note-taking application built with the MERN Stack that makes capturing and organizing ideas simple and efficient.
+> A modern full-stack note-taking application built with the **MERN Stack** to create, organize, and manage notes effortlessly.
 
-🌐 Live Demo
+🌐 **Live Demo:** https://thinkboard-v29z.onrender.com/
 
-https://thinkboard-v29z.onrender.com/
+---
 
-Features
-✍️ Create, update, and delete notes
-⚡ Fast and responsive interface
-📱 Responsive design for desktop and mobile
-💾 Persistent storage with MongoDB
-🔗 RESTful API powered by Express.js
-Tech Stack
+## ✨ Features
 
-Frontend
+* 📝 Create, edit, and delete notes
+* 💾 Persistent storage with MongoDB Atlas
+* ⚡ Fast and responsive UI
+* 📱 Mobile-friendly design
+* 🔗 RESTful API with Express.js
 
-React
-Vite
-Tailwind CSS
+---
 
-Backend
+## 🛠️ Tech Stack
 
-Node.js
-Express.js
+**Frontend**
 
-Database
-MongoDB Atlas
-Mongoose
+* React
+* Vite
+* Tailwind CSS
 
-MongoDB Atlas
-Mongoose
+**Backend**
+
+* Node.js
+* Express.js
+
+**Database**
+
+* MongoDB Atlas
+* Mongoose
+
+---
+
+## 📂 Folder Structure
+
+```text
+ThinkBoard/
+├── frontend/
+├── backend/
+└── README.md
+```
+
+---
+
+## 🌱 Future Improvements
+
+* Authentication
+* Search & Filters
+* Dark Mode
+* Pin & Favorite Notes
+
+---
+
+## 👩‍💻 Author
+
+**Vidhi Singh**
+
+If you like this project, consider giving it a ⭐ on GitHub.
